@@ -1,0 +1,24 @@
+{
+  "name": "nf-listener",
+  "version": "1.0.0",
+  "description": "Web server app to listen for HTTP POST messages output by Nextflow ([qbicsoftware](https://github.com/qbicsoftware/nextflow.git) `nfbroadcast` branch)",
+  "main": "listener.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevekm/nf-listener.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevekm/nf-listener/issues"
+  },
+  "homepage": "https://github.com/stevekm/nf-listener#readme"
+}
